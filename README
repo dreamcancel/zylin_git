@@ -29,4 +29,23 @@ Create TF, Create TL1
 
 CF
 Query CF QM, Maintain CF QM
+POC QM Tree Function
+Option nodes in grid drag to QM tree
+QM tree data transfer to TO after assign new node by drag
+Virtual scrolling (Dynamic render tree node that fit screen) for performance
+Create springboot/angular project 
+lightweight server without wildfly
+springboot citrix practice
 
+
+K8S migratino
+Tapeout Simulation
+Search TL2 (remove schedule dependence on EC1 Batch Server)
+eRM
+
+Other
+CCOP
+
+PI_FAB_LOGISTIC
+Send Notice Mail Batch
+Batch service generate composite TL43/TL45 Batch
