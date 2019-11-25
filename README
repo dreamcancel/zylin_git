@@ -25,7 +25,12 @@ Need to take care Use Case information integrity and gap with code implementatio
 
 Proj
 ATI
+phase1
 Create TF, Create TL1
+phase2
+Compare TL3
+Maintain attribute
+Query attribute
 
 CF
 Query CF QM, Maintain CF QM
