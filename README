@@ -1,1 +1,25 @@
-sell
+Major Accomplishment: 
+As module lead, take TA replatform EOS tasks. Build BCP (HQ/NJ), ECP and Citrix function tree for HQ, NJ, and JV user. Provide maintain TA save time as CCOP for system health monitor. Breakdown the implement task and requirement to backlog items with 4 sprints by Scrum as task management for task progress is going smoothly. Prepare release documents, OPVT and deployment plan for 2019/06/25 release.
+Upgrade Angular 5 to 6 and Springboot 1.5.6 to 2.0.4 to align CPSD common practice for future maintenance.
+Implement batch function by Springboot scheduler that can reduce register and use EAM scheduler 3 days effort and avoid system batch unavailable during EAM scheduler crash and share this practice to team member.
+Provide TA Citrix launch to K8S solution by PDM TI trigger instead of original TA VB trigger code change to reduce 2 days effort.
+
+As SD, implement Create AS TL1 and TF1 to TF3 function for CoWoS business AS technology that plan to release on 2019/11/26. Support TL5 holdable stage with step control 2019/04/23 ER to improve user manual step control MO risk and 2019/03/26 TL3 migration ST that release.
+Besides, prove Angular directive practice that can be reuse to fulfill common requirement filter content with digit and alphabet and support WG common UI practice improvement by test and feedback for AS technology.
+For MO cause by data non-consistence between TI and downstream prevention, provide a solution that can do data rollback once MQ fail occur.
+Perform ST with 300+ cases including (UC flow), critical scenarios (Non UC flow) and integration scenario that detect function exception and as-is function bug for system quality.
+
+As SD, support two security tasks. Fab10 and JV Data segregation for TI and STI module functions to let fab and geometry information can do privilege control and release on 2019/01/15. As Module lead, Support eRM weblogic urgent migration, PT issues fix and DMZ apache upgrade that release on 2019/05/04 and 2019/06/29.
+Integrate NJ, Fab10 and JV Data segregation as a central function control to gain code quality, readiness and maintenance.
+Besides code implement, support ST, UAT and Sanity Check to ensure eRM is no impact with these change for system quality.
+
+Teamwork:
+As TA ST coordinator with SA and OC, provide ST env., test information such as how to be a JV user and clarify the UC flow, test questions and  fix issues for system quality.
+
+Potential:
+I can take more tasks that need to study or module lead tasks because having experience of finish TA replatform independently.
+
+Area for Improvement:
+Need to take care Use Case information integrity and gap with code implementation flow for future maintenance and system test smoothly.
+
+
