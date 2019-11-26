@@ -70,4 +70,7 @@ No UAT issues by perform ST with 300+ cases including (UC flow), critical scenar
 As ST/UAT coordinator with SA and SD, provide ST/UAT env., code/function tree deployment, all developers DDL and DML integration for one time effort.
 
 3.
-As module lead, follow CPSD internal K8S migration plan on 2019/12. Migrate eRM old Ant structure to Maven on wildfly8 to wildfly11 and migrate TMR Tapeout Simulation batch, Search TL2 webservice on weblogic to wildfly11 for adopt K8S. As SD, take effort to migrate Generate Composite TL43/TL45 Batch and create scheduler on batch code module as a solution that can save K8S to EC1 Batch Server firewall effort for PI_FAB_LOGISTIC migration on 2019/11.
+As module lead, follow CPSD internal K8S migration plan on 2019/12. Migrate eRM old Ant structure to Maven on wildfly8 to wildfly11 and migrate TMR Tapeout Simulation batch, Search TL2 webservice on weblogic to wildfly11 for adopt K8S. As SD, take effort to migrate Generate Composite TL43/TL45 Batch and create scheduler on batch code module as a solution that can save K8S to EC1 Batch Server firewall apply effort for PI_FAB_LOGISTIC migration on 2019/11.
+
+For futher eRM DMZ migration, implement a property check flow to fix as-is hardcode check by weblogic or jboss server to distinct login from Online or BCP.
+Restructure eRM as-is one module project (means front codes and backend code in same module) to best practice structure to three module (web, core, common) for better Maven project control.
