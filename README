@@ -74,3 +74,7 @@ As module lead, follow CPSD internal K8S migration plan on 2019/12. Migrate eRM 
 
 For futher eRM DMZ migration, implement a property check flow to fix as-is hardcode check by weblogic or jboss server to distinct login from Online or BCP.
 Restructure eRM as-is one module project (means front codes and backend code in same module) to best practice structure to three module (web, core, common) for better Maven project control.
+
+
+Team
+Cowork with SA, OC and EAM to build holdable stage and TA CCOP for system healthy moinitor and finish TI Team [PAM, TWiDMZ] PAM User Account Annual Review with ICSD.
