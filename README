@@ -55,3 +55,9 @@ CCOP
 PI_FAB_LOGISTIC
 Send Notice Mail Batch TA dev. phase
 Batch service generate composite TL43/TL45 Batch
+
+----
+As module lead, take CF replatform EOS tasks. Build springboot with lightweight server structure to reduce start avg. time from 30secs (Wildfly) to 7 secs. Besides migrate the Maintain CF QM complicated dragable tree UI with Angular 7 framework, improve VB unfriendly UI behavior such as can rearrange question position by drag and drop directly. Provide A4/Tom User Group JWTAuth. with security control practice and BCP and Citrix function tree for HQ and JV user.
+
+Provide reusable components/function/directives to reduce likely function implement time (such as 2 days for T-code Send Mail function).
+Take K8S 3.11 related tasks includes WAF and PAAS portal setting and release needed items such as BlackDuck/Fortify/Sonar/OPVT/DP/DML.
