@@ -64,3 +64,4 @@ Provide reusable components/function/directives to reduce likely function implem
 Take K8S 3.11 related tasks includes WAF and PAAS portal setting and release needed items include that fix BlackDuck/Fortify/Sonar issues and prepare OPVT/DP/DML.
 
 2.
+As SD, for enable CoWoS AS technology business. Implement TF, TL1, Compare TL3 and TL2/TL3 attribute functions released on 2019/12. 
