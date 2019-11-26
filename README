@@ -67,4 +67,4 @@ Take K8S 3.11 related tasks includes WAF and PAAS portal setting and release nee
 As SD, for enable CoWoS AS technology business. Implement TF, TL1, Compare TL3 and TL2/TL3 attribute functions and take care performance for Compare TL3 report fill color and compare by new/modify/miss attibutes on two TL3s. Provide Angular component that can be reuse to fulfill common requirement filter content with digit and alphabet and support WG common UI practice improvement by test and feedback. Take WAF and PAAS portal setting and release items for 2019/12 release.
 
 No UAT issues by perform ST with 300+ cases including (UC flow), critical scenarios (Non UC flow) and integration scenario that detect function exception and bug.
-
+As ST/UAT coordinator with SA and SD, provide ST/UAT env., code/function tree deployment, all developers DDL and DML integration for one time effort.
