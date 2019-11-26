@@ -68,3 +68,6 @@ As SD, for enable CoWoS AS technology business. Implement TF, TL1, Compare TL3 a
 
 No UAT issues by perform ST with 300+ cases including (UC flow), critical scenarios (Non UC flow) and integration scenario that detect function exception and bug.
 As ST/UAT coordinator with SA and SD, provide ST/UAT env., code/function tree deployment, all developers DDL and DML integration for one time effort.
+
+3.
+As module lead, follow CPSD internal K8S migration plan on 2019/12. Migrate eRM old Ant structure to Maven on wildfly8 to wildfly11 and migrate TMR Tapeout Simulation batch, Search TL2 webservice on weblogic to wildfly11 for adopt K8S. As SD, take effort migrate generate composite TL43/TL45 Batch and module as a remove schedule dependence on EC1 Batch Server solution for PI_FAB_LOGISTIC migration on 2019/11.
