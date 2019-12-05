@@ -1,86 +1,14 @@
-Major Accomplishment: 
-As module lead, take TA replatform EOS tasks. Build BCP (HQ/NJ), ECP and Citrix function tree for HQ, NJ, and JV user. Provide maintain TA save time as CCOP for system health monitor. Breakdown the implement task and requirement to backlog items with 4 sprints by Scrum as task management for task progress is going smoothly. Prepare release documents, OPVT and deployment plan for 2019/06/25 release.
-Upgrade Angular 5 to 6 and Springboot 1.5.6 to 2.0.4 to align CPSD common practice for future maintenance.
-Implement batch function by Springboot scheduler that can reduce register and use EAM scheduler 3 days effort and avoid system batch unavailable during EAM scheduler crash and share this practice to team member.
-Provide TA Citrix launch to K8S solution by PDM TI trigger instead of original TA VB trigger code change to reduce 2 days effort.
+Thank you for completing Microsoft Azure training!
 
-As SD, implement Create AS TL1 and TF1 to TF3 function for CoWoS business AS technology that plan to release on 2019/11/26. Support TL5 holdable stage with step control 2019/04/23 ER to improve user manual step control MO risk and 2019/03/26 TL3 migration ST that release.
-Besides, prove Angular directive practice that can be reuse to fulfill common requirement filter content with digit and alphabet and support WG common UI practice improvement by test and feedback for AS technology.
-For MO cause by data non-consistence between TI and downstream prevention, provide a solution that can do data rollback once MQ fail occur.
-Perform ST with 300+ cases including (UC flow), critical scenarios (Non UC flow) and integration scenario that detect function exception and as-is function bug for system quality.
+Once you have completed the AZ-203 (NRU-00142) - Developing Solutions for Microsoft Azure courses training, you’re ready to get certified for Azure. Microsoft’s certification paths reflect today's cloud-focused jobs, helping you to get ahead, be productive faster, and to receive the recognition you deserve.
+As a benefit for completing this training, you are receiving a voucher to take an exam for free.
+Save this voucher code, as it’s personal, not transferable, and it can’t be replaced if lost or stolen. 
+_______________________________________________________________________________________________________________________________________________________
+Your Voucher Code is: MSP38C913A5C
+_______________________________________________________________________________________________________________________________________________________
 
-As SD, support two security tasks. Fab10 and JV Data segregation for TI and STI module functions to let fab and geometry information can do privilege control and release on 2019/01/15. As Module lead, Support eRM weblogic urgent migration, PT issues fix and DMZ apache upgrade that release on 2019/05/04 and 2019/06/29.
-Integrate NJ, Fab10 and JV Data segregation as a central function control to gain code quality, readiness and maintenance.
-Besides code implement, support ST, UAT and Sanity Check to ensure eRM is no impact with these change for system quality.
+Note:
+For scheduling exam, you should go to https://home.pearsonvue.com/microsoft and register to take an exam. During that process they can use the voucher number for payment. Please note these exam codes are only valid through 31 March 2020. 
+For issues with voucher redemption, please email TechSkillsSupport@microsoft.com
 
-Teamwork:
-As TA ST coordinator with SA and OC, provide ST env., test information such as how to be a JV user and clarify the UC flow, test questions and  fix issues for system quality.
-
-Potential:
-I can take more tasks that need to study or module lead tasks because having experience of finish TA replatform independently.
-
-Area for Improvement:
-Need to take care Use Case information integrity and gap with code implementation flow for future maintenance and system test smoothly.
-
-
-Proj
-ATI
-phase1
-Create TF, Create TL1
-phase2
-Compare TL3
-Maintain attribute
-Query attribute
-
-CF
-Query CF QM, Maintain CF QM
-POC QM Tree Function
-Option nodes in grid drag to QM tree
-QM tree data transfer to TO after assign new node by drag
-Virtual scrolling (Dynamic render tree node that fit screen) for performance
-Create springboot/angular project 
-lightweight server without wildfly
-springboot citrix practice
-
-
-K8S migratino
-Tapeout Simulation
-Search TL2 (remove schedule dependence on EC1 Batch Server)
-eRM
-
-Other
-CCOP
-[PAM, TWiDMZ] PAM User Account Annual Review
-
-PI_FAB_LOGISTIC
-Send Notice Mail Batch TA dev. phase
-Batch service generate composite TL43/TL45 Batch
-
-----
-1.
-As module lead, for CF replatform EOS release on 2019/12. Build springboot with lightweight server framework to reduce start avg. time from 30secs (Wildfly) to 7 secs. Besides migrate the Maintain CF QM complicated dragable tree UI with Angular 7 framework, improve VB unfriendly UI behavior such as can rearrange question position by drag and drop directly. Provide A4/Tom User Group JWTAuth. with security control practice and BCP and Citrix function tree for HQ and JV user.
-
-Provide reusable components/function/directives to reduce likely function implementation time such as 2 days for T-code Send Mail function.
-Take K8S 3.11 related tasks includes WAF and PAAS portal setting and release needed items include that fix BlackDuck/Fortify/Sonar issues and prepare OPVT/DP/DML.
-
-2.
-As SD, for enable CoWoS AS technology business. Implement TF, TL1, Compare TL3 and TL2/TL3 attribute functions and take care performance for Compare TL3 report fill color and compare by new/modify/miss attibutes on two TL3s. Provide Angular component that can be reuse to fulfill common requirement filter content with digit and alphabet and support WG common UI practice improvement by test and feedback. Take WAF and PAAS portal setting and release items for 2019/12 release.
-
-No UAT issues by perform ST with 300+ cases including (UC flow), critical scenarios (Non UC flow) and integration scenario that detect function exception and bug.
-As ST/UAT coordinator with SA and SD, provide ST/UAT env., code/function tree deployment, all developers DDL and DML integration for one time effort.
-
-3.
-As module lead, follow CPSD internal K8S migration plan on 2019/12. Migrate eRM old Ant structure to Maven on wildfly8 to wildfly11 and migrate TMR Tapeout Simulation batch, Search TL2 webservice on weblogic to wildfly11 for adopt K8S. As SD, take effort to migrate Generate Composite TL43/TL45 Batch and create scheduler on batch code module as a solution that can save K8S to EC1 Batch Server firewall apply effort for PI_FAB_LOGISTIC migration on 2019/11.
-
-For futher eRM DMZ migration, implement a property check flow to fix as-is hardcode check by weblogic or jboss server to distinct login from Online or BCP.
-Restructure eRM as-is one module project (means front codes and backend code in same module) to best practice structure to three module (web, core, common) for better Maven project control.
-
-
-Team
-Cowork with SA, OC and EAM to build holdable stage and TA CCOP for system healthy moinitor and finish TI Team [PAM, TWiDMZ] PAM User Account Annual Review with ICSD.
-
-Potential
-Try to take module lead tasks because having experience of handle a project such as CF migration and TA migration.
-
-Area for Improvement:
-system check.
+Thank you again for your attendance and best of luck with your exam!
