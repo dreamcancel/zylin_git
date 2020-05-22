@@ -78,4 +78,28 @@ AMCX-CPPA-EYNO-DROP
 —  	When prompted, you must accept the License Agreement before you can access or use the courseware. 
  
 
+---------------
+
+
+Major Accomplishment: 
+As module lead, for CF replatform EOS release on 2019/12. Build springboot with lightweight server framework to reduce start avg. time from 20 secs. (Wildfly) to 7 secs. Besides migrate the Maintain CF QM complicated tree UI with Angular 7, improve VB unfriendly UI behavior such as can rearrange question position by drag and drop directly. Provide A4/Citrix PreAuth. with security control practice and BCP and Citrix function tree for HQ and JV user. For TA replatform. Provide maintain TA save time as CCOP for system health monitor. Breakdown the implement task and requirement to backlog items with 4 sprints by Scrum as task management for task progress is going smoothly.
+-Provide reusable components/function/directives to reduce likely function implementation time such as 2 days for T-code Send Mail function.
+-Implement batch function by Springboot scheduler that can reduce register and use EAM scheduler 3 days effort and avoid system batch unavailable during EAM scheduler crash and share this practice to team member.
+
+As SD, for enable CoWoS AS technology business. Implement TF, TL1, Compare TL3 and TL2/TL3 attribute functions and take care performance for Compare TL3 report fill color and compare by new/modify/miss attributes on two TL3s. Provide Angular component that can be reuse such filter digit and alphabet and support WG common UI practice improvement by test and feedback. Take WAF and PAAS portal setting and release items preparation for 2019/12 release.
+-No UAT issues by perform ST with 300+ cases including (UC flow), critical scenarios (Non UC flow) and integration scenario that detect function exception and bug.
+-As ST/UAT coordinator with SA and SD, provide ST/UAT env., code/function tree deployment, all developers DDL and DML integration for one time effort.
+
+As module lead, follow CPSD internal K8S migration plan on 2019/12. Migrate eRM old Ant structure to Maven on wildfly8 to wildfly11 and migrate TMR Tapeout Simulation batch, Search TL2 web service on weblogic to wildfly11 for sunset. As SD, migrate Generate Composite TL43/TL45 Batch and take effort to create scheduler on batch code module as a solution that can save K8S to EC1 Batch Server firewall apply effort for PI_FAB_LOGISTIC migration on 2019/11.
+-For further eRM DMZ migration, implement a property check flow to fix as-is hardcode check by weblogic or jboss server to distinct login from Online or BCP.
+-Restructure eRM as-is one module project (means front codes and backend code in same module) to best practice structure to three module (web, core, common) for better Maven project control.
+
+Teamwork:
+Cooperate with SA, OC and EAM to build Holdable stage and TA CCOP for system healthy monitor and finish TI Team [PAM, TWiDMZ] PAM User Account Annual Review with SC/ICSD.
+
+Potential:
+Try to take module lead tasks because having experience of handle a project such as CF migration and TA migration.
+
+Area for Improvement:
+Need to raise up TI domain such MB self judgement on user unreasonable request for reducing operation cycle time.
 
