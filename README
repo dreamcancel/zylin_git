@@ -89,9 +89,20 @@ coordinate auto Active MB For EDW UAT with EDW/User with good quality
 give a suggest to EDW user 珮姍 that solve EDW report flow performance issue from 3mins. to 30sec.
 
 
-2.
+2.DMZ/Internal K8S migration
+Online internal Admin, authCheck, SSOAuth, CustReport, ReportQuery
+before schedule with good quality
+share Ant to Maven and weblogic to jboss material and provide consult to HC/BS/ZY
+
+3.Online performance and operation support, eRM N05, N12/N16 FFC+ ER 
+PI38 solve snapshot data refresh issue and give db snapshot material on CPSD meeting, PI34 report performance tuning get 1mins. down from 60mins. 
+solid Online NAS disk Usage survey that can't by Keith and JH by unix parallel program
+code change to create a new framework that can extend similiar requirement by db const in the same day
 
 
+team
+take over ZY's authCheck quickly and give him step-by-step detail guide
+integration onilne common fw group with CSV/Tapeout
 
 -------
 Major Accomplishment: 
