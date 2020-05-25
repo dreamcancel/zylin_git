@@ -79,8 +79,21 @@ AMCX-CPPA-EYNO-DROP
  
 
 ---------------
+1.iTCMB-phase2
+MB related flow
+maintain MB/TL/QM submit flow and active webservice with EDW
+i-Attachment webservice and new function
+MB/QM compare, MB submit rule, new TL Digi And KD By MB (by MB Code) function
+
+coordinate auto Active MB For EDW UAT with EDW/User with good quality
+give a suggest to EDW user 珮姍 that solve EDW report flow performance issue from 3mins. to 30sec.
 
 
+2.
+
+
+
+-------
 Major Accomplishment: 
 As module lead, for CF replatform EOS release on 2019/12. Build springboot with lightweight server framework to reduce start avg. time from 20 secs. (Wildfly) to 7 secs. Besides migrate the Maintain CF QM complicated tree UI with Angular 7, improve VB unfriendly UI behavior such as can rearrange question position by drag and drop directly. Provide A4/Citrix PreAuth. with security control practice and BCP and Citrix function tree for HQ and JV user. For TA replatform. Provide maintain TA save time as CCOP for system health monitor. Breakdown the implement task and requirement to backlog items with 4 sprints by Scrum as task management for task progress is going smoothly.
 -Provide reusable components/function/directives to reduce likely function implementation time such as 2 days for T-code Send Mail function.
