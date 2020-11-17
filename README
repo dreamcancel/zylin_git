@@ -96,6 +96,12 @@ take over ZY's authCheck quickly and give him step-by-step detail guide
 integration onilne common fw group with CSV/Tapeout
 
 -------
+iTCMB (7/1)
+SoIC (1/12)
+CustReport (10/13), ReportQuery (12/)
+PDM Portal AutoPDCN (10/13)
+eRM DMZ K8S Migration (10/13)
+
 Major Accomplishment: 
 
 As SD, for iTCMB-phase2 release on 2020/07/01, to gain performance in MB/TL/QM submit/active as-is heavy flow, integration duplicated heavy rule check report flow in different transaction to do once time during submit. For further UI reuse add flag control to Test line Digi. Tone and KD/KC compare (by MB Code) report new function. Provide web service framework template first to team member during implement active, MB/QM compare and all i-Attachment report web service to EDW. 
