@@ -97,24 +97,23 @@ integration onilne common fw group with CSV/Tapeout
 
 -------
 Major Accomplishment: 
-As SD, for iTCMB-phase2 release on 2020/06/30, besides refactor MB/TL/QM submit and active flow and implement new Test line Digi. Tone and KD/KC compare (by MB Code) report function, provide active, MB/QM compare and all i-Attachment report web service to EDW. This change can increase user productivity by replace current manual MB review and assign TCMB no. in active process after submit to auto flow by interaction with EDW.
-Provide auto Active MB web service to replace trigger by EDW MQ flow and coordinate UAT with EDW/User by myself and release on 2020/02/18.
-During UAT phase, give a suggestion to EDW 珮姍 that solve EDW add meta info. to TL Digi. report flow performance issue from 3mins. to 30sec.
+
+As SD, for iTCMB-phase2 release on 2020/07/01, to gain performance in MB/TL/QM submit/active as-is heavy flow, integration duplicated heavy rule check report flow in different transaction to do once time during submit. For further UI reuse add flag control to Test line Digi. Tone and KD/KC compare (by MB Code) report new function. Provide web service framework template first to team member during implement active, MB/QM compare and all i-Attachment report web service to EDW. 
+Build TI module Basic Auth. that can cover all web service with authorization control. and coordinate UAT with EDW/User by myself on 2020/02/18.
+For TI/EDW interaction on web service smoothly, support EDW 珮姍 that solve EDW add meta info. to TL Digi. report performance from 3mins. to 30sec.
 Improve i-Attachment 100K+ records report generate time from 4mins. to 45sec. by solve TI module EJB/JPA auto flush issue.
 
-As module lead, for Online DMZ/Internal K8S migration, besides perform 2020/02/18 Online internal Admin K8S migration with Jboss SLB/DNS/Server sunset, sort out the system structure, find and take over the data sync batch project belong to EAM with migration quickly. Not only finish authCheck, SSOAuth Ant to Maven, but also Weblogic code base to Jboss EAP (wildfly14.0.1) structure with SOP before schedule and provide DMZ K8S migration related consultant to BS and ZY continually for 2020/06/09 release.
+As module lead, for Online DMZ/Internal K8S migration, support Jboss SLB/DNS/Server sunset, sort out the system structure, find and take over the data sync batch project belong to EAM with migration quickly. As SD, not only finish authCheck, SSOAuth Ant to Maven, but also Weblogic code base to Jboss EAP (wildfly14.0.1) structure with SOP before schedule and take over ZY's authCheck DMZ K8S migration encounter problem that cause him delay and give him step-by-step detail guide and concept that how to solve. for 2020/06/09 release.
 Be the TI team first person finish Ant to Maven before schedule, share related SOP and material and provide consultant to HC/BS/ZY.
 As a mentor, utilize internal Admin K8S migration task make a progressive K8S migration trial to BS that let him finish similar task smoothly.
 
-As SD, support Online batch PI38 snapshot data refresh issue and survey the db snapshot all creation mechanic. Perform PI34 report performance tuning find out the bottle neck by survey SQL structure and choose a best combination by performance analysis. Take over Online NAS 4.4T disk usage survey to find out which folder is the root cause of use a lot of disk space. Even it has hard survey comment by Keith, I can perform a solid report quickly by unix parallel script. As module lead, support eRM N05, N12/N16 FFC+ ER that has different parameter control to current PBTI assessment for enable N05 and N12/16 FFC+ business release on 2020/03/28 and 2020/05/26.
+As SD, study db snapshot creation mechanic to solve Online batch PI38 snapshot data refresh issue. Research SQL structure concept and choose a best combination by performance analysis to fix PI34 report performance tuning find out the bottle neck. As module lead, release a new PBTI assessment UI control framework that can perform similar requirement without code change by db const in the next time on eRM N05, N12/N16 FFC+ ER.
 Sort out the DB snapshot creation and complexity table query SQL correct concept material during performance tuning and share on SD meeting.
-Release a new PBTI assessment UI control framework that can perform similar requirement without code change by db const in the next time.
+Take over Online NAS 4.4T disk usage survey to find out which folder is the root cause of use a lot of disk space. Even it has hard survey comment by Keith, I can perform a solid report quickly by unix parallel script.
 
-Teamwork:
-Take over ZY's authCheck DMZ K8S migration encounter problem that cause him delay and give him step-by-step detail guide and concept that how to solve.
-Integration the Scattered and duplicated onilne fw rule and groups to a solid common group with CSV/Tapeout downstream to reduce future change effort.
+Teamwork: Integration the Scattered and duplicated onilne fw rule to a solid common group with CSV/Tapeout downstream to reduce future change effort.
 
 Potential: Perform good performance and quality on Ant to Maven weblogic/JBOSS to K8S migration task and can provide solid material and consultant.
-Area for Improvement: Sometimes for user emergency operation, it can make a trade-off by simplify some unreasonable complexity requirement with simple raw data to save some unnecessary effort.
 
+Area for Improvement: Sometimes for user emergency operation, it can make a trade-off by simplify some unreasonable complexity requirement with simple raw data to save some unnecessary effort.
 
