@@ -102,22 +102,18 @@ CustReport (10/13), ReportQuery (12/)
 PDM Portal AutoPDCN (10/13)
 eRM DMZ K8S Migration (10/13)
 
-Major Accomplishment: 
+As SD, to enable SoIC business, implement the dynamic process attribute and bond type GWT UI to MB, QM, and TL5 to maintain attribute UI by DB without code change, provide SC control flag by DB to enable/disable SoIC attribute on maintain, submit, and rule check to save user data initial effort on release day. For search Tl5 service that provide to Tapeout also can search by SoIC attribute, add search by SoIC information process to the existed complicate search flow.
+Provide that enable QM can maintain with MB dynamic process attribute and bond type solution and accepted by YS.
+Not only enable search Tl5 service, but also arrange the search flow material to save survey effort for future requirement change.
+Design and build the reusable search Tl5 regression test that can to guarantee quality once flow changed.
 
-As SD, for iTCMB-phase2 release on 2020/07/01, to gain performance in MB/TL/QM submit/active as-is heavy flow, integration duplicated heavy rule check report flow in different transaction to do once time during submit. For further UI reuse add flag control to Test line Digi. Tone and KD/KC compare (by MB Code) report new function. Provide web service framework template first to team member during implement active, MB/QM compare and all i-Attachment report web service to EDW. 
+As SD, for iTCMB-phase2 release on 2020/07/01, to gain performance in MB/TL/QM submit/active as-is heavy flow, integration duplicated heavy rule check report flow in different transaction to do once time during submit. For further UI reuse add flag control to Test line Digi. Tone and KD/KC compare (by MB Code) report new function. Provide web service framework template first to team member during implement active, MB/QM compare and all i-Attachment report web service to EDW.
 Build TI module Basic Auth. that can cover all web service with authorization control. and coordinate UAT with EDW/User by myself on 2020/02/18.
-For TI/EDW interaction on web service smoothly, support EDW 珮姍 that solve EDW add meta info. to TL Digi. report performance from 3mins. to 30sec.
+Migrate HTML MB simplified report to WORD format by POI as first and provide the utils and template to reduce 3 days further similar effort.
 Improve i-Attachment 100K+ records report generate time from 4mins. to 45sec. by solve TI module EJB/JPA auto flush issue.
 
-As module lead, for Online DMZ/Internal K8S migration, support Jboss SLB/DNS/Server sunset, sort out the system structure, find and take over the data sync batch project belong to EAM with migration quickly. As SD, not only finish authCheck, SSOAuth Ant to Maven, but also Weblogic code base to Jboss EAP (wildfly14.0.1) structure with SOP before schedule and take over ZY's authCheck DMZ K8S migration encounter problem that cause him delay and give him step-by-step detail guide and concept that how to solve. for 2020/06/09 release.
-Be the TI team first person finish Ant to Maven before schedule, share related SOP and material and provide consultant to HC/BS/ZY.
-As a mentor, utilize internal Admin K8S migration task make a progressive K8S migration trial to BS that let him finish similar task smoothly.
 
-As SD, study db snapshot creation mechanic to solve Online batch PI38 snapshot data refresh issue. Research SQL structure concept and choose a best combination by performance analysis to fix PI34 report performance tuning find out the bottle neck. As module lead, release a new PBTI assessment UI control framework that can perform similar requirement without code change by db const in the next time on eRM N05, N12/N16 FFC+ ER.
-Sort out the DB snapshot creation and complexity table query SQL correct concept material during performance tuning and share on SD meeting.
-Take over Online NAS 4.4T disk usage survey to find out which folder is the root cause of use a lot of disk space. Even it has hard survey comment by Keith, I can perform a solid report quickly by unix parallel script.
-
-Teamwork: Integration the Scattered and duplicated onilne fw rule to a solid common group with CSV/Tapeout downstream to reduce future change effort.
+Teamwork: For PDM portal migration as TI team owner apply the JV Token to TI module with good quality release, take information to section and cooperate with PI team MY.
 
 Potential: Perform good performance and quality on Ant to Maven weblogic/JBOSS to K8S migration task and can provide solid material and consultant.
 
