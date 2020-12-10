@@ -8,25 +8,57 @@ https://www.twitch.tv/videos/826403400?t=7h7m41s
 
 有覺得需要什麼幫助嗎?
 
+
+---
+1.從進公司到現在，你覺得對於 assignment 有沒有共識?
+有
+
+別人交代的 task 可以清楚知道內容，知道最後要deliver的東西是什麼
+如果覺得有不清楚的地方 你會 … ?
+若發現assignment跟最後要deliver的東西有落差，會找module lead和SA一起討論
+
+有覺得有地方需要改進嗎?
+若module lead或SA給出的建議對deliver的結果不太合理，應該要找MANAGER一起討論
+
+有覺得需要什麼幫助嗎?
+適時的建議即可
+
+
 2.你對於DOD 的見解是?
 
 Handle assignment 的過程中會不會發現跟你的DOD有不同的地方?
 有的話你會怎麼處理?
 
+--
+2.你對於DOD 的見解是?
+
+
+task在對應stage該完成的事情都有做完
+
+Handle assignment 的過程中會不會發現跟你的DOD有不同的地方?有的話你會怎麼處理?
+有，若遇到困難導致無法完成，找人說出遇到的困難討論
+
 3.As a task owner, 你覺得最重要的是什麼?
 
+--
+負起task的成敗
+
 4.當接到一個 assignment/task 你覺得你要負的責任是什麼?
+負起task的成敗
+不能一問三不知，知道自己為什麼而做
 
 當其他人覺得你有事情沒有處理好的時候，你會怎麼處理?
+檢視什麼地方沒做好，盡快找出解法把事情做好
 
 5.在這一年的task中，你覺得有那些task是有需要改進的?
-
+reportquery K8S migration
 那你覺得可以怎麼改進?
+如我發現有一個function因上游出問題無法做UAT，反應給module lead後，module lead覺得可以不用測繼續GO進度，對deliver的quality來說不太合理，應該要找MANAGER一起討論
 
 6.你覺得這一兩年來，對於開發上的熟練程度有不一樣嗎?
-
+有，更熟悉TI的DOMAIN和更熟悉更種前後端的技術，如Angular, GWT, EJB, Springboot
 你覺得開發上有什麼地方是可以變得更好的嗎?
-
+可以幫忙cover任何人的miss，如幫忙看開出的requirement和最後想要的目的落差並給出調整建議
 
 
 
