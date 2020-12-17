@@ -154,3 +154,63 @@ Potential: Perform good performance and quality on Ant to Maven weblogic/JBOSS t
 
 Area for Improvement: Sometimes for user emergency operation, it can make a trade-off by simplify some unreasonable complexity requirement with simple raw data to save some unnecessary effort.
 
+2020
+
+
+2019
+
+2018
+
+2017
+
+
+2016
+Major Accomplishment: 
+As the AP owner of eReliability Model for new formula ER enabling and User migration from Online (Weblogic) to BCP (Wildfly8).
+Implement the CLN28HPC+(0.9V/1.8V) , CLN28HPC+(0.9V/2.5V) , and delta-Vt shift to N40/28 performance calculation function with zero defect release on 2016/05/24 and 2016/11/15.
+Finish internal user migration from Online to BCP portal (reduce Online routine ITSR effort for at least 200 Depts.) with Ant architecture design to let Weblogic and Wildfly8 AP code are compatible with one project to reduce future maintain effort and release on 2016/08/24 (Acutual implement from 2016/7 to 2016/8, Schedule from 2016/7 to 2016/9, ahead schedule 50%)Spend only 1 month for AP new Wilfly8 domain, Db run account, Online DMZ firewall privilege, and BCP function tree creation.
+Complete TL replatform  and Interal CTL core business flow function for internal user and VISERA request.
+I can implement the maintain and check xCD information with upload and download csv file functions that users can more faster maintain xCD for new test line MT my TL implement architecture and release on 2016Q1.
+Complete the N7 LIT AIO flag ER on 2016/11/15 for TL N7 technology information maintain to do N7 pilot run on 2017Q1.
+Implement the ICTL core business functions such create and maintain test line MT form with preview and submit test line with mail notice and generate XML functions by my TL implement architecture and release on 2016/05/24.
+As the future AP owner of SR replatform for pre-task and core maintain and validation functions
+Support project implement pre-task like create JPA BO entity, table privilege to TLM_AP, project common utils and BCP and ECP function link as future AP owner.
+Complete SR create and maintain rectangle sealring and octangle sealring MT form with validation and copy functions by my TL implement architecture, and support the copy function UI implement by AngularJS2 framework for future AP smooth maintenance.
+Design and implement IP merge xml architecture by JAXB for MT. and DPID MQ Message De-coupling.
+Design the new IP merge TO by JAXB xml architecture to let CPSD and DPID xml schema can’t be impact when changing the table schema.
+Teamwork:
+Share my 1.9 years work review and coding experience to newcomers (JY and WC) and provide any support they need to let they can familiarize with tsmc life.
+Survey the machine learning model and suitable development tool about feasibility assessment of EBO forecast model that seeks to optimize CPU resource demand and cycle time improvement with CF Yao.
+Support 2016 YEP as prop and take the department outing grouping owner during support the CPSD 2016 Q1 and Q3 outing organizer.
+Area of Improvement: 
+Need more activity to provide my idea even different to others.
+Potential:
+I can support the machine learning models implementation and share model training practice by my KDD Cup music recommendation experience.
+
+
+2015
+Major Accomplishment: 
+Support TL replatform for UI POC, security filter, maintain test line and save block with pre-check functions implementation by Scrum as Frontend and Backend developer
+Finished Test Line Replatform about XOR Comparison and Maintain xCD pages UI POC to help SA validating her UI prototype design for encounter big data situation by Sencha.
+Implement the security filter by reference CTL’s and fix it As-Is redirect page issue by myself as a new security filter developer. After that the TL module can authorize and authenticate whether the E1 users have the privilege or not.
+Complete the query test line page, test line summary page, preview test line MT page all functions from UI to Service, and copy test line page UI with module test. E1 user can query a test line and create new test line MT.
+Finish the maintain block page save with pre-check function and maintain database information initial page service. E1 can maintain database information and add or delete test line block.
+Besides, fast put into the system design and implementation of CSV and Backend E1 maintain pages form for InFO project of TOR module. Worked with module lead for different report of TOR historical report to support PIE for their quality gating while TOR submission.
+Finished the MT-TOR History data initialization and output the result as a Xml file services to generate and output difference report with module test. 
+As the new developer of TOR module, I can fast catch up the Tor domain related process and support to finish the detail design of CSV and Backend PIE pages for InFO. I also finish the system implementation and complete it before the plan due day.
+Finish EMB Flash new formula implement with fixing fortify issues. Otherwise, integrate all functions to one UI and DB structure by refactor the EMB Flash function UI and DB structure in eRM module.
+Take over the eRM module and become the SD/Module Lead by two weeks.
+Finished the EMB Flash new formula implement and support to fix eRM As-Is fortify issues with deploying to production. 
+Let all functions in eRM can process and maintain through one UI and DB structure by refactor the EMB Flash UI and DB structure.
+Support Customer Test Line for new ER close test line function with good quality
+Finished close test line page ER task with 87.3% rest, 100% EJB, 97% Dao UT Coverage, 100% UT Success, and zero Blocker, Critical, and Major issues by Sencha and Java.
+Teamwork:
+Integrated the Sencha best practices, by SJ, Steven, and Jackery, into a document with more systematic & maintainable and share it with team members. This documents will be useful for people who want to study Sencha or ExtJS.
+Proactively share my practice with team members and also write down the practice which may benefits the new comers who join this team in the near future.
+Area of Improvement: 
+Need more activity to consult the coding style and common utility usage with Module lead to reduce the function rework and implementation cost.
+Take care the wording of UI component (eg. button name) and module test coverage to get the good implementation quality.
+Potential:
+Develop a basis on coding style and common utility usage sense to implement more maintainability and readability functions during the TL replatform sprint 5~7.
+
+
