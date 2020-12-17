@@ -158,11 +158,64 @@ Area for Improvement: Sometimes for user emergency operation, it can make a trad
 
 
 2019
+Major Accomplishment: 
+As module lead, for CF replatform EOS release on 2019/12. Build springboot with lightweight server framework to reduce start avg. time from 20 secs. (Wildfly) to 7 secs. Besides migrate the Maintain CF QM complicated tree UI with Angular 7, improve VB unfriendly UI behavior such as can rearrange question position by drag and drop directly. Provide A4/Citrix PreAuth. with security control practice and BCP and Citrix function tree for HQ and JV user. For TA replatform. Provide maintain TA save time as CCOP for system health monitor. Breakdown the implement task and requirement to backlog items with 4 sprints by Scrum as task management for task progress is going smoothly.
+Provide reusable components/function/directives to reduce likely function implementation time such as 2 days for T-code Send Mail function.
+Implement batch function by Springboot scheduler that can reduce register and use EAM scheduler 3 days effort and avoid system batch unavailable during EAM scheduler crash and share this practice to team member.
+As SD, for enable CoWoS AS technology business. Implement TF, TL1, Compare TL3 and TL2/TL3 attribute functions and take care performance for Compare TL3 report fill color and compare by new/modify/miss attributes on two TL3s. Provide Angular component that can be reuse such filter digit and alphabet and support WG common UI practice improvement by test and feedback. Take WAF and PAAS portal setting and release items preparation for 2019/12 release.
+No UAT issues by perform ST with 300+ cases including (UC flow), critical scenarios (Non UC flow) and integration scenario that detect function exception and bug.
+As ST/UAT coordinator with SA and SD, provide ST/UAT env., code/function tree deployment, all developers DDL and DML integration for one time effort.
+As module lead, follow CPSD internal K8S migration plan on 2019/12. Migrate eRM old Ant structure to Maven on wildfly8 to wildfly11 and migrate TMR Tapeout Simulation batch, Search TL2 web service on weblogic to wildfly11 for sunset. As SD, migrate Generate Composite TL43/TL45 Batch and take effort to create scheduler on batch code module as a solution that can save K8S to EC1 Batch Server firewall apply effort for PI_FAB_LOGISTIC migration on 2019/11.
+For further eRM DMZ migration, implement a property check flow to fix as-is hardcode check by weblogic or jboss server to distinct login from Online or BCP.
+Restructure eRM as-is one module project (means front codes and backend code in same module) to best practice structure to three module (web, core, common) for better Maven project control.
+Teamwork:
+Cooperate with SA, OC and EAM to build Holdable stage and TA CCOP for system healthy monitor and finish TI Team [PAM, TWiDMZ] PAM User Account Annual Review with SC/ICSD.
+
+
 
 2018
+Major Accomplishment: 
+As SD, perform MB rule Replatform before schedule 20% (actual 16 days, plan 20 days) and improve average performance of advanced technology (< N32) 2.5 times (From 10s to 4s) by provide multithread programing. Implement attachment report with automatic distinct rule that whether need user comment and excel protection to replace the manual effort on iTCMB. (plan release on 2018/12/18)
+Not only provide the cross test between new and as-is rules base on same ~10000 MB cases, but also provide multithread to reduce the test time that let implement more efficient with good quality.
+Support ST with 300+ cases including (UC flow), critical scenarios (Non UC flow) and integration scenario that detect function exception and as-is function bug for system quality.
+As SD, build up the Angular5 framework with popular third party such like primeng to ensure future maintenance and provide the query and maintain function with HTTPS A4 authorization for TA migration spinrt1 by 2018/05/14.
+Treat POC prototype as final UI, it can reduce SA  build prototype time and reduce user recognize gap on real system and let developer reduce sprint1 implementation time by reuse this prototype.
+As Module lead/SD, perform security tasks such as fix eRM crtical/high BLACKDUCK and fortify issues and adopt WAF. (released on 2018/11/13). Remove SR dependence on Http CDN service for adopt HTTPs WAF by 2018/05/22 and fix CBS module SQL Injection and XSS 2 PT issues with BurpSuite validation. (released on 2018/08/24.)
+Use BurpSuite tool to simulate http protocol attack to guaranty issues are fixed.
+Solve the TCP fortify issues and Blackduck issues by use newest save library instead of waive as possible.
+As SD, Implement cross check between no pattern and TOR mask layer to prevent a data fail when multiedit on 2018/05. Support FTRS NJ approval mail with NJA4SSO authorization and adopt IRM file encryption framework by 2018/02.
+Handle a data error during save TOR by multiedit and provide the different report let user fix error TOR before release.
+By find a method that can test NJA4SSO in office zone without deploy code to NJ prod server to reduce the implementation time and complete this task in urgent schedule.
+Teamwork:
+Provide POI column merge issues solution and share POI issue tracking practices to HC on iTCMB.
+Support module lead tasks such as Sonar/Fortify fix and ST/UAT server ENV. preparation on iTCMB to reduce CH loading.
+
+
 
 2017
-
+Major Accomplishment: 
+As the ProjC SD, For phase1, solve SealRing critical and high Fority 22 issues <release on 2017/07/18>; For phase2, implement generate TYPICAL/COMBO/MPW MT form files to HQ NAS with NJ tapeout data security policy gating to let PIE can preview tapeout MT forms in NJ fab, and Helper and Scheduler to reduce urgent operation efforts. <release on 2017/12/12>.
+Create ExtJS4 for UI and Jersey Rest structure practice instead of ExtJS2 & DWR framework in iTapeout-MT project to reduce the UI and Backend implementation effort for ProjC phase2.
+Take some module lead tasks for ProjC ITO-MT release, such like that monitor and fix Sonar, Fortify issues , and deploy code to SIT and UAT for ST and UAT and prepare the deployment plan.
+As the MT/TOR SD, for iShuttle phase1 implement auto MPW TOR to fill CSV questions and Combo have been enabled for auto PIE-TOR with N28(35% for ATB’s work) and 0.18(75% for MTB’s work) <release on 2017/06/20>; for R3.24 ER, refactor CTL selection flow to provide more information added in MT and STI to help customers and CSV on testline and corresponding logic operation source selection <release on 2017/09/19>; for R3.25 ER revise TSMC CHIP Rotaion gating rule for MT Form to reduce customer MO. <release on 2017/11/14>.
+Implement two web services with auto fill mpw TOR in CSV questions with submit and send mail process to EBO, and auto assign TL5 from xml by EBO web service in PIE question for combo and mpw TOR.
+Add TL4, tapeout usage information and TL2 compare gating to improve CTL selection flow to let CSV reduce MO in TOR and CTL-TOR with zero defect.
+Refactor TSMC CHIP Rotaion gating rule to avoid customer and TSMC MO when maintain tyical/combo/mpw tapeout Form with zero defect.
+As the SealRing module lead, implement the upload GDS function with IGateway flow to fulfill EBO security policy and provide deployment plan and sanity check scenarios for 1st release on 2017/03/07 and finish the legacy VB SR sunset on 2017/09/19; Provide a minimum effort method to solve DB Link issue that SD and module lead have no solution idea on 2017/06/20.
+Utilize the AngularJS2 for UI implementation and design and implement upload function by iGateway web service with batch function to make sure the PIE GDS 10+ files per seal ring MT that upload to EBO successfully, and apply the seal ring BCP and ECP function links for PIE and EBO 1200+ users adoption A4 authentication and authorization.
+Study and provide a 1mins effort solution that setting JBOSS standalone.xml to fix DB Link connection unstable issue, and this practice also use in TLMT.
+As the eRM module lead, provide the new generation for customer and internal users evaluate the N16 FFC+ product QR release on 2017/05/16; Add function authorization in BCP and Online for CMD center policy; and N20/N16 EM(DC) W/L Range release on 2017/11/14.
+Implement  the security utils with A4 and Online Oid authorization function for IT CMD Center BCP and Online AP security policy.
+Remove the generation constraint for Online internal user to reduce Online 6 privilege grant operations effort one month.
+Implement the new generation and W/L range for customers and internal user N16/N20 product quality and reliability evaluation.
+Teamwork:
+Support to scan and revise the 100+ password items that need encrypt in codes, documents for seal ring, eRM, iTapeout, and NTO STI modules to fulfill security requirement.
+Perform Spotfire POC on SR/SRMT case progress analysis and TOR/EN product segment analysis topic.
+Provide Taipei and YiLan one day schedule draft and support lucky draw program on CPSD 2017 Q3/Q4 outing; Support TSMC Sport days approach.
+Area of Improvement: 
+Need more follow up to team lead if they don’t have a progress feedback to me on time. (It means I need  active to ask them if out of schedule.)
+Potential:
+I can take more framework-like task By no defect SR, ProjC, and eRM framework-like tasks.
 
 2016
 Major Accomplishment: 
