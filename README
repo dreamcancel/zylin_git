@@ -155,6 +155,22 @@ Potential: Perform good performance and quality on Ant to Maven weblogic/JBOSS t
 Area for Improvement: Sometimes for user emergency operation, it can make a trade-off by simplify some unreasonable complexity requirement with simple raw data to save some unnecessary effort.
 
 2020
+Major Accomplishment: 
+As SD, to enable SoIC business on 2021/1, implement the functions that can perform dynamic process attribute and bond types by DB to MB, QM, and TL5 three heavy transaction page and adopt to maintain, submit and rule check flow. Implement the function that can engage MB, QM, TL5 three pages with enable/disable SoIC attributes on UI, save, rule check and data stream by DB flag for user risk management. For as-is complicate search Tl5 service that provide to Tapeout, to enable search by SoIC attribute, enhance existed search function can adopt SoIC attributes.
+Because QM has the itself attribute control, so I provide a solution that enable QM can maintain with MB dynamic process attribute and bond type and accepted by YS.
+Not only enable search Tl5 service, but also arrange the search flow material to save survey effort for future requirement change.
+Design and build the reusable search Tl5 regression test that can to guarantee quality once flow changed.
+As SD, for iTCMB-phase2 release on 2020/07/01, to gain performance in MB/TL/QM submit/active as-is heavy flow, integration duplicated heavy rule check report flow in different transaction to do once time during submit. Provide web service template first to team member during implement active MB/QM compare and implement all i-Attachment report web service to EDW and implement MB simplified report migration and provide web service for auto PDCN flow on 2020/10/13.
+Build TI module Basic Auth. that can cover all web service with authorization control. and coordinate UAT with EDW/User by myself on 2020/02/18.
+Improve i-Attachment 100K+ records report generate time from 4mins. to 45sec. by solve TI module EJB/JPA auto flush issue.
+Migrate HTML MB simplified report to WORD format by POI as first and provide util. and template to reduce 3 days effort of further create a new Word report.
+As module lead, perform Online and eRM module DMZ migration tasks, not only finish Ant to Maven and migrate Weblogic code base to Jboss EAP (wildfly14.0.1). Migrate Authcheck and SSOAuth to DMZ K8S on 2020/06/09, eRM to DMZ K8S on 2020/10/13 before 2020/12/E schedule, CustReport on 2020/10/13 and ReportQuery on 2020/12. For Online batch SQL performance issue tuning, research PI34 SQL structure and tuning best SQL scenario combination by performance analysis to fix PI34 report performance tuning find out the bottle neck.
+Be the team first person finish Ant to Maven and migrate Weblogic code base to Jboss EAP before schedule, share related SOP and material and provide consultant to HC/BS/ZY.
+Take over ZY’s AuthCheck DMZ K8S migration encounter problem that cause him delay and give him step-by-step detail guide and concept that how to solve
+Sort out the DB snapshot creation and complexity table query SQL correct concept material during performance tuning and share on SD meeting.
+Teamwork: Finish 2020/11/03 PDM portal migration of TI module to let JV user use AP on browser, as TI coordinator cooperate with PI team. Apply auth JV user by JV Token to TI module with good quality, plan the migration schedule and provide any related migration information/updates to section.
+Potential: Perform good performance and quality on Ant to Maven weblogic/JBOSS to K8S migration task and can provide solid material and consultant.
+Area for Improvement: For CustReport release issue lesson learnt, it need to take care of make sure the system monitor to get exception on release moment.
 
 
 2019
