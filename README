@@ -23,7 +23,7 @@ eNrtPWtz2za2n6tfwfHM3umOZQdvgrnJ3vErjts4cW0n2fZLBiRBmwlFuiTlRzv57_cApCRSoiRaSbrd
 
 
 New Item
-Ezomyte Blade
+Ezomyte Staff
 Crafted: true
 Prefix: None
 Prefix: None
@@ -32,13 +32,12 @@ Suffix: None
 Suffix: None
 Suffix: None
 Quality: 20
-Sockets: G-G-G-G-G-G
-LevelReq: 61
+Sockets: B-B-B-B-B-B
+LevelReq: 60
 Implicits: 1
-{tags:damage,critical}+25% to Global Critical Strike Multiplier
+{tags:block}+20% Chance to Block Attack Damage while wielding a Staff
 +2 to Level of Socketed Melee Gems
-Adds 15 to 29 Fire Damage
-Adds 19 to 411 Lightning Damage
-19% increased Attack Speed
-37% increased Critical Strike Chance
-19% increased Stun Duration on Enemies
+15% increased Cold Damage
+6% increased Attack Speed
+32% increased Critical Strike Chance
+81% increased Elemental Damage with Attack Skills
